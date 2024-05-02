@@ -1,0 +1,19 @@
+.list{
+    color: red;
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+    background-color:gainsboro;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    justify-content:center
+    
+
+}
+.label{
+    color:brown;
+    width: 100px;
+    max-width: 100px ;
+    
+}

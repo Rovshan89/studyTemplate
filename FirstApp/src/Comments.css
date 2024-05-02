@@ -1,0 +1,88 @@
+/* App.css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.form-container label,
+.form-container input {
+    margin-bottom: 10px;
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.comment-section label,
+.comment-section input {
+    margin-bottom: 10px;
+}
+
+.comment-section input{
+    width: 150px;
+    height: 75px;
+    
+}
+#submitbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#h2{
+    font-size: small;
+    border-style: ridge;
+    border-color: blue;
+    color: #dc3545;
+    
+}
+
+#commentframe{
+    border-style: groove;
+    padding: 100px, 0;
+    background-color:whitesmoke
+}
+
+#pcomment{
+    border-style: double;
+    border-color: brown;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    background-color: #87afda;
+}
+
+.button-shared {
+    color: white;
+    background-color: #007bff; /* Bootstrap primary color for reference */
+    padding: 5px 10px; /* Increased horizontal padding for a nicer look */
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px; /* Adds rounded corners */
+    cursor: pointer;
+    margin-right: 5px; /* Adds some space between buttons if they are next to each other */
+}
+
+
+#delete {
+    background-color: #dc3545; /* Bootstrap danger color for reference */
+}
+
+
+#edit {
+    background-color: #ffc107; /* Bootstrap warning color for reference */
+}
+
+
+#like{
+    font-size: smaller;
+}
